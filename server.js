@@ -30,23 +30,6 @@ app.get('/getWeatherOfNewYork',(req,res)=>{
   })
 });
 
-// app.post('/signup',(req,res)=>{
-//   var user = new MovieUser({
-//      _id: new mongoose.Types.ObjectId(),
-//      name:req.body.name,
-//      phone:req.body.phone,
-//      email:req.body.email
-//    });
-//
-//    user.save()
-//    .then((result)=>{
-//      res.send(result);
-//        console.log(result);
-//      }).catch((err)=>{
-//        console.log(err);
-//      });
-// });
-
 app.listen(port,()=>{
   console.log(`server is up on port ${port}`);
 });
